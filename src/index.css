@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  overflow: hidden;
+}
+
+.slider-thumb::-webkit-slider-thumb {
+  @apply appearance-none w-5 h-5 cursor-pointer;
+  @apply ring-1 ring-primary bg-on-primary rounded-full;
+}
